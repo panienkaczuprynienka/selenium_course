@@ -1,7 +1,10 @@
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -9,11 +12,19 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
   public class AdminLoginTest {
-    FirefoxDriver wd;
+    WebDriver wd;
+    String browser= "firefox";
+
 
     @BeforeMethod
     public void setUp() throws Exception {
-      wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
+      if (browser.equals("firefox")) {
+        wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
+      } else if (browser.equals("chrome")) {
+        wd = new ChromeDriver();
+      } else if (browser.equals("IE")) {
+        wd = new InternetExplorerDriver();
+      }
       wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
     }
 
@@ -30,13 +41,16 @@ import java.util.concurrent.TimeUnit;
       wd.quit();
     }
 
-  public static boolean isAlertPresent(FirefoxDriver wd) {
-    try {
-      wd.switchTo().alert();
-      return true;
-    } catch (NoAlertPresentException e) {
-      return false;
+    public static boolean isAlertPresent(FirefoxDriver wd) {
+      try {
+        wd.switchTo().alert();
+        return true;
+      } catch (NoAlertPresentException e) {
+        return false;
+      }
     }
+
+
   }
-}
+
 

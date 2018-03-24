@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/playground-tests.iml" filepath="$PROJECT_DIR$/playground-tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/playground-tests_main.iml" filepath="$PROJECT_DIR$/.idea/modules/playground-tests_main.iml" group="playground-tests" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/playground-tests_test.iml" filepath="$PROJECT_DIR$/.idea/modules/playground-tests_test.iml" group="playground-tests" />
+    </modules>
+  </component>
+</project>
