@@ -1,7 +1,4 @@
-import org.openqa.selenium.By;
-import org.openqa.selenium.HasCapabilities;
-import org.openqa.selenium.NoAlertPresentException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -13,10 +10,12 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-public class AdminLoginTest {
+public class StickerTest {
   WebDriver wd;
   WebDriverWait wait;
   String browser = "chrome";
@@ -44,20 +43,15 @@ public class AdminLoginTest {
   }
 
   @Test
-  public void login() {
-    wd.get("http://localhost:8080/litecart/admin/login.php");
-    wd.findElement(By.name("username")).sendKeys("admin");
-    wd.findElement(By.name("password")).sendKeys("admin");
-    wd.findElement(By.name("login")).click();
+  public void stickerTest() {
+    wd.get("http://localhost:8080/litecart/en/");
 
-    Assert.assertTrue(isElementPresent("//div[@class='logotype']"));
+    Assert.assertTrue(isElementPresent("//div[@id='logotype-wrapper']"));
+    List<WebElement> products = getProducts();
+    checkStickerForEveryProduct(products);
 
-    wd.findElement(By.xpath("//li[@id='app-']")).click();
-    wd.findElement(By.xpath("//li[@id='doc-template']")).click();
-    wd.findElement(By.xpath("//li[@id='doc-logotype']")).click();
-
-
-
+    int i = getCountOfStickers();
+    System.out.println("The number of stickers is " + i + "");
   }
 
   @AfterMethod
@@ -74,6 +68,10 @@ public class AdminLoginTest {
     }
   }
 
+  public int getCountOfStickers() {
+    List<WebElement> elements = wd.findElements(By.xpath("//li[@class='product column shadow hover-light']//div[contains(@class,'sticker')]"));
+    return elements.size();
+  }
 
   public boolean isElementPresent(String xPathLocator) {
     try {
@@ -84,4 +82,18 @@ public class AdminLoginTest {
     }
   }
 
+  public List<WebElement> getProducts() {
+    List<WebElement> products = wd.findElements(By.xpath("//div[contains(text(),'Duck')]/../.."));
+    return products;
+  }
+
+  public List<WebElement> checkStickerForEveryProduct(List<WebElement> products) {
+    List<WebElement> stickers = new ArrayList<WebElement>();
+    for (WebElement product : products) {
+      WebElement sticker = product.findElement(By.xpath("//div[contains(@class,'sticker')]"));
+      Assert.assertFalse(sticker == null);
+      stickers.add(sticker);
+    }
+    return stickers;
+  }
 }
