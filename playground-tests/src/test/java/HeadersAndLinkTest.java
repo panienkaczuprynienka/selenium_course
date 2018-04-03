@@ -52,7 +52,7 @@ public class HeadersAndLinkTest {
     wd.findElement(By.name("login")).click();
 
     Assert.assertTrue(isElementPresentByXpath("//div[@class='logotype']"));
-    
+
 //appearance
     wd.findElement(By.cssSelector("#box-apps-menu #app-:nth-of-type(1) > [href]")).click();
     String title1 = "Template";

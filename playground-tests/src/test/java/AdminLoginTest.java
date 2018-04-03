@@ -52,11 +52,6 @@ public class AdminLoginTest {
 
     Assert.assertTrue(isElementPresent("//div[@class='logotype']"));
 
-    wd.findElement(By.xpath("//li[@id='app-']")).click();
-    wd.findElement(By.xpath("//li[@id='doc-template']")).click();
-    wd.findElement(By.xpath("//li[@id='doc-logotype']")).click();
-
-
 
   }
 
