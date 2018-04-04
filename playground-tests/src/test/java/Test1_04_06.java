@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.fail;
 
-  public class Test1 {
+  public class Test1_04_06 {
     private WebDriver driver;
     private String baseUrl;
     private boolean acceptNextAlert = true;

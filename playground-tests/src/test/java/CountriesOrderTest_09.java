@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 import static java.lang.Integer.parseInt;
 
-public class CountriesOrderTest {
+public class CountriesOrderTest_09 {
   WebDriver wd;
   WebDriverWait wait;
   String browser = "chrome";

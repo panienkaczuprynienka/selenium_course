@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-public class AdminLoginTest {
+public class AdminLoginTest_03 {
   WebDriver wd;
   WebDriverWait wait;
   String browser = "chrome";

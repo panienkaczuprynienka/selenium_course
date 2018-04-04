@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 
-public class HeadersAndLinkTest {
+public class HeadersAndLinkTest_07 {
 
   WebDriver wd;
   WebDriverWait wait;
