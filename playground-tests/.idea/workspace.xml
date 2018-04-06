@@ -32,9 +32,11 @@
       <file leaf-file-name="UserRegistration_11.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistration_11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2057">
-              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+            <state relative-caret-position="-699">
+              <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
               <folding>
+                <element signature="e#1933#1934#0" expanded="true" />
+                <element signature="e#1952#1953#0" expanded="true" />
                 <element signature="e#2684#2692#0" expanded="true" />
               </folding>
             </state>
@@ -44,13 +46,15 @@
       <file leaf-file-name="AddProduct_12.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AddProduct_12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-266">
-              <caret line="156" column="2" lean-forward="false" selection-start-line="156" selection-start-column="2" selection-end-line="156" selection-end-column="2" />
+            <state relative-caret-position="186">
+              <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
               <folding>
-                <element signature="e#4612#4613#0" expanded="true" />
-                <element signature="e#4633#4634#0" expanded="true" />
-                <element signature="e#5039#5040#0" expanded="true" />
-                <element signature="e#5083#5084#0" expanded="true" />
+                <element signature="e#4637#4638#0" expanded="true" />
+                <element signature="e#4658#4659#0" expanded="true" />
+                <element signature="e#4729#4730#0" expanded="true" />
+                <element signature="e#4773#4774#0" expanded="true" />
+                <marker date="1523007791352" expanded="false" signature="6770:6777" ph=" { " />
+                <marker date="1523007791352" expanded="false" signature="6787:6791" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -69,6 +73,7 @@
     <findStrings>
       <find>doc-csv</find>
       <find>wait</find>
+      <find>date</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -366,15 +371,15 @@
         <option value="$PROJECT_DIR$/src/test/java/AdminLoginTest_03.java" />
         <option value="$PROJECT_DIR$/src/test/java/Test1_04_06.java" />
         <option value="$PROJECT_DIR$/src/test/java/UserRegistration_11.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ApplicationManager.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Helper.java" />
         <option value="$PROJECT_DIR$/src/test/java/AddProduct_12.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="242" />
-    <option name="y" value="69" />
-    <option name="width" value="929" />
-    <option name="height" value="600" />
+    <option name="width" value="683" />
+    <option name="height" value="364" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -700,15 +705,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddProduct_12 - 2018.04.06 at 08h 56m 10s.xml">
-      <configuration name="AddProduct_12" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddProduct_12 - 2018.04.06 at 09h 35m 33s.xml">
-      <configuration name="AddProduct_12" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="AddProduct_12 - 2018.04.06 at 09h 36m 10s.xml">
-      <configuration name="AddProduct_12" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="AddProduct_12 - 2018.04.06 at 09h 36m 51s.xml">
       <configuration name="AddProduct_12" configurationId="TestNG" />
     </history-entry>
@@ -730,6 +726,15 @@
     <history-entry file="AddProduct_12 - 2018.04.06 at 10h 33m 50s.xml">
       <configuration name="AddProduct_12" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="AddProduct_12 - 2018.04.06 at 11h 34m 22s.xml">
+      <configuration name="AddProduct_12" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddProduct_12 - 2018.04.06 at 11h 34m 55s.xml">
+      <configuration name="AddProduct_12" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AddProduct_12 - 2018.04.06 at 11h 37m 50s.xml">
+      <configuration name="AddProduct_12" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -743,7 +748,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19085173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35962147" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -800,8 +805,14 @@
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/UserRegistration_11.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -888,16 +899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistration_11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-          <folding>
-            <element signature="e#2684#2692#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -906,15 +907,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ApplicationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/UserRegistration_11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-699">
+          <caret line="63" column="18" lean-forward="true" selection-start-line="63" selection-start-column="18" selection-end-line="63" selection-end-column="18" />
+          <folding>
+            <element signature="e#1933#1934#0" expanded="true" />
+            <element signature="e#1952#1953#0" expanded="true" />
+            <element signature="e#2684#2692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AddProduct_12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-266">
-          <caret line="156" column="2" lean-forward="false" selection-start-line="156" selection-start-column="2" selection-end-line="156" selection-end-column="2" />
+        <state relative-caret-position="186">
+          <caret line="51" column="29" lean-forward="false" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
           <folding>
-            <element signature="e#4612#4613#0" expanded="true" />
-            <element signature="e#4633#4634#0" expanded="true" />
-            <element signature="e#5039#5040#0" expanded="true" />
-            <element signature="e#5083#5084#0" expanded="true" />
+            <element signature="e#4637#4638#0" expanded="true" />
+            <element signature="e#4658#4659#0" expanded="true" />
+            <element signature="e#4729#4730#0" expanded="true" />
+            <element signature="e#4773#4774#0" expanded="true" />
+            <marker date="1523007791352" expanded="false" signature="6770:6777" ph=" { " />
+            <marker date="1523007791352" expanded="false" signature="6787:6791" ph=" }" />
           </folding>
         </state>
       </provider>

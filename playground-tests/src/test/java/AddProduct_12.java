@@ -49,7 +49,7 @@ public class AddProduct_12 {
     addNewProductButtonClick();
     //general
     enableRadioButtonClick();
-    String linkText = "Duck 2";
+    String linkText = "Duck 1";
     type(wd.findElement(By.cssSelector("input[name=\"name[en]\"]")), linkText);
     type(wd.findElement(By.cssSelector("input[name=\"code\"]")),"00-001");
     chooseCategory("Subcategory");
@@ -57,8 +57,9 @@ public class AddProduct_12 {
     chooseSex("male");
     setQuantity(wd.findElement(By.cssSelector("[name=\"quantity\"]")), "10");
     uploadFile(By.cssSelector("[name=\"new_images[]\"]"), "C:\\Users\\Patrycja\\Desktop\\kaczka.jpg");
-    //setDatepicker(wd, "[name=\"date_valid_from\"]", "01/01/2018");
-    //setDatepicker(wd, "[name=\"date_valid_to\"]", "01/01/2019");
+
+    wd.findElement(By.name("date_valid_from")).sendKeys(Keys.HOME + "01012018");
+    wd.findElement(By.name("date_valid_to")).sendKeys(Keys.HOME + "01012019");
 
     //information
     swichTab(wd.findElement(By.cssSelector("[href=\"#tab-information\"]")));
@@ -122,11 +123,6 @@ public class AddProduct_12 {
     tab.click();
   }
 
-  public void setDatepicker(WebDriver driver, String cssSelector, String date) {
-    new WebDriverWait(driver, 30000).until((WebDriver d) -> d.findElement(By.cssSelector(cssSelector)).isDisplayed());
-    JavascriptExecutor.class.cast(driver).executeScript(String.format("$('%s').datepicker('setDate', '%s')", cssSelector, date));
-  }
-
   public void setQuantity(WebElement elementInput, String quantity) {
   clearAndType(elementInput, quantity);
   }
@@ -154,7 +150,6 @@ public class AddProduct_12 {
     checkboxSubcategory.click();
   }
   }
-  
 
   public void enableRadioButtonClick() {
     WebElement enabledRadioButton = wd.findElement(By.cssSelector("[type=\"radio\"][value=\"1\"]"));
@@ -179,7 +174,6 @@ public class AddProduct_12 {
     Assert.assertTrue(isElementPresent("//div[@class='logotype']"));
   }
 
-
   @AfterMethod
   public void tearDown() {
     wd.quit();
@@ -193,7 +187,6 @@ public class AddProduct_12 {
       return false;
     }
   }
-
 
   public boolean isElementPresent(String xPathLocator) {
     try {
