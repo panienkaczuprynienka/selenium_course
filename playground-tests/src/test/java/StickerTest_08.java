@@ -47,11 +47,16 @@ public class StickerTest_08 {
     wd.get("http://localhost:8080/litecart/en/");
 
     Assert.assertTrue(isElementPresent("//div[@id='logotype-wrapper']"));
-    List<WebElement> products = getProducts();
-    checkStickerForEveryProduct(products);
 
     int i = getCountOfStickers();
     System.out.println("The number of stickers is " + i + "");
+
+    List<WebElement> ducks = wd.findElements(By.className("product"));
+    for (WebElement duck : ducks) {
+      int quantityOfSticksPerDuck = duck.findElements(By.className("sticker")).size();
+      Assert.assertTrue(quantityOfSticksPerDuck == 1);
+    }
+
   }
 
   @AfterMethod
@@ -69,7 +74,7 @@ public class StickerTest_08 {
   }
 
   public int getCountOfStickers() {
-    List<WebElement> elements = wd.findElements(By.xpath("//li[@class='product column shadow hover-light']//div[contains(@class,'sticker')]"));
+    List<WebElement> elements = wd.findElements(By.className("sticker"));
     return elements.size();
   }
 
@@ -82,18 +87,5 @@ public class StickerTest_08 {
     }
   }
 
-  public List<WebElement> getProducts() {
-    List<WebElement> products = wd.findElements(By.xpath("//div[contains(text(),'Duck')]/../.."));
-    return products;
-  }
 
-  public List<WebElement> checkStickerForEveryProduct(List<WebElement> products) {
-    List<WebElement> stickers = new ArrayList<WebElement>();
-    for (WebElement product : products) {
-      WebElement sticker = product.findElement(By.xpath("//div[contains(@class,'sticker')]"));
-      Assert.assertFalse(sticker == null);
-      stickers.add(sticker);
-    }
-    return stickers;
-  }
 }
