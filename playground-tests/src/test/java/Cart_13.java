@@ -79,9 +79,17 @@ public class Cart_13 {
     }
     goToCart();
 
-    List<WebElement> products = getListOfProductsInCart();
-    removeFirstAvailableProductFromCart();
-    wait.until(ExpectedConditions.stalenessOf(products.get(0)));
+    // List<WebElement> products = getListOfProductsInCart();
+    // removeFirstAvailableProductFromCart();
+    // wait.until(ExpectedConditions.stalenessOf(products.get(0)));
+
+
+    for (int i = 0; i < 3; i++) {
+      WebElement row = wd.findElement(By.xpath("//table[@class='dataTable rounded-corners']//strong[contains(text(),'Subtotal:')]"));
+      wd.findElement(By.xpath("//button[@value='Remove']")).click();
+      wait.until(ExpectedConditions.stalenessOf(row));
+    }
+    
   }
 
   private void removeFirstAvailableProductFromCart() {
@@ -138,5 +146,6 @@ public class Cart_13 {
     Select dropdown = new Select(element);
     dropdown.selectByValue(value);
   }
+
 
 }
