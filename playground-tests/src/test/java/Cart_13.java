@@ -89,7 +89,7 @@ public class Cart_13 {
       wd.findElement(By.xpath("//button[@value='Remove']")).click();
       wait.until(ExpectedConditions.stalenessOf(row));
     }
-    
+
   }
 
   private void removeFirstAvailableProductFromCart() {

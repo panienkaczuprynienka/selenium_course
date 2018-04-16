@@ -39,12 +39,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cart_13.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cart_13.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Cart_13.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="281">
-              <caret line="91" column="4" lean-forward="false" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
+              <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountriesOrderTest_09.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="553">
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3671#3679#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,8 +65,8 @@
       <file leaf-file-name="Invoker.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="669" column="0" lean-forward="false" selection-start-line="669" selection-start-column="0" selection-end-line="669" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -380,6 +393,7 @@
         <option value="$PROJECT_DIR$/src/test/java/HeadersAndLinkTest_07.java" />
         <option value="$PROJECT_DIR$/src/test/java/StickerTest_08.java" />
         <option value="$PROJECT_DIR$/src/test/java/Cart_13.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java" />
       </list>
     </option>
   </component>
@@ -465,7 +479,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.Cart_13">
+  <component name="RunManager" selected="TestNG.CountriesOrderTest_09">
     <configuration name="Cart_13" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="playground-tests_test" />
@@ -493,14 +507,14 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="HeadersAndLinkTest_07" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CountriesOrderTest_09" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="playground-tests_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="HeadersAndLinkTest_07" />
+      <option name="MAIN_CLASS_NAME" value="CountriesOrderTest_09" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -520,14 +534,14 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="LinksAndWindows_14" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HeadersAndLinkTest_07" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="playground-tests_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LinksAndWindows_14" />
+      <option name="MAIN_CLASS_NAME" value="HeadersAndLinkTest_07" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -682,19 +696,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.LinksAndWindows_14" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.Trlololo" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.HeadersAndLinkTest_07" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.StickerTest_08" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.Cart_13" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.Trlololo" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.HeadersAndLinkTest_07" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.StickerTest_08" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.Cart_13" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CountriesOrderTest_09" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.Cart_13" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.StickerTest_08" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.HeadersAndLinkTest_07" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.Trlololo" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.LinksAndWindows_14" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CountriesOrderTest_09" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.Cart_13" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.StickerTest_08" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.HeadersAndLinkTest_07" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.Trlololo" />
       </list>
     </recent_temporary>
   </component>
@@ -712,40 +726,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Cart_13 - 2018.04.15 at 20h 32m 13s.xml">
-      <configuration name="Cart_13" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 18h 34m 18s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Cart_13 - 2018.04.15 at 20h 39m 41s.xml">
-      <configuration name="Cart_13" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 18h 35m 06s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Cart_13 - 2018.04.15 at 20h 40m 31s.xml">
-      <configuration name="Cart_13" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 18h 37m 47s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Cart_13 - 2018.04.15 at 20h 41m 47s.xml">
-      <configuration name="Cart_13" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 18h 38m 49s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="HeadersAndLinkTest_07 - 2018.04.11 at 16h 45m 09s.xml">
-      <configuration name="HeadersAndLinkTest_07" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 18h 58m 03s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StickerTest_08 - 2018.04.11 at 21h 06m 16s.xml">
-      <configuration name="StickerTest_08" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 18h 58m 41s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StickerTest_08 - 2018.04.11 at 21h 07m 22s.xml">
-      <configuration name="StickerTest_08" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 18h 59m 41s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="StickerTest_08 - 2018.04.11 at 21h 09m 13s.xml">
-      <configuration name="StickerTest_08" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 19h 00m 39s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Trlololo - 2018.04.10 at 19h 58m 17s.xml">
-      <configuration name="Trlololo" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 19h 01m 08s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="Trlololo - 2018.04.10 at 19h 58m 40s.xml">
-      <configuration name="Trlololo" configurationId="TestNG" />
+    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 19h 02m 23s.xml">
+      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -756,18 +769,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38643533" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.238653" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14934114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31388012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31388012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -783,22 +796,28 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java</url>
-          <line>68</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/UserRegistration_11.java</url>
           <line>57</line>
           <properties />
           <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/HeadersAndLinkTest_07.java</url>
@@ -809,7 +828,7 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="83" />
+      <option name="time" value="94" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -889,19 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="55" column="3" lean-forward="true" selection-start-line="55" selection-start-column="3" selection-end-line="57" selection-end-column="85" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3789#3797#0" expanded="true" />
-            <element signature="e#4585#4593#0" expanded="true" />
-            <element signature="e#4958#4967#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LinksAndWindows_14.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
@@ -937,19 +943,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Cart_13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="669" column="0" lean-forward="false" selection-start-line="669" selection-start-column="0" selection-end-line="669" selection-end-column="0" />
+        <state relative-caret-position="281">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Cart_13.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="91" column="4" lean-forward="false" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
+        <state relative-caret-position="152">
+          <caret line="671" column="0" lean-forward="false" selection-start-line="671" selection-start-column="0" selection-end-line="671" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="553">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3671#3679#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

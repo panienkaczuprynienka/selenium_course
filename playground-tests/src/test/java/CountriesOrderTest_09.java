@@ -59,40 +59,27 @@ public class CountriesOrderTest_09 {
     List<String> countryNames = getCountyNames();
     System.out.println(countryNames);
     checkOrder(countryNames);
-    Assert.assertTrue(checkOrder(countryNames) == true);
+    Assert.assertTrue(checkOrder(countryNames));
 
+//1b
+    for (int i = 0; i < countryNames.size(); i++) {
+      List<String> zonesListNames = new ArrayList();
+      List<WebElement> zones = wd.findElements(By.xpath("//tr[@class='row']"));
 
+      if (Integer.parseInt(zones.get(i).findElement(By.xpath("./td[6]")).getText()) > 0) {
 
+        zones.get(i).findElement(By.cssSelector("[title=\"Edit\"]")).click();
+        Assert.assertTrue(isElementPresent("//h1[contains(text(),'Edit Country')]"));
 
-    //1b
-    wd.findElement(By.xpath("//tbody//tr[39]//td[5]")).click();
-    checkOrder(getZonesInParticularCountry());
-
-
-
-
-   // if (parseInt(wd.findElement(By.cssSelector("td:nth-of-type(6)")).getAttribute("textContent")) != 0 ){
-    //  wd.findElement(By.cssSelector("td:nth-of-type(6)")).click();
-
-
-     // checkOrder(getZonesInParticularCountry());
-
-
-/*
-    wd.findElement(By.cssSelector("#box-apps-menu #app-:nth-of-type(6) > [href] .name")).click();
-    String title6 = "Geo Zones";
-    Assert.assertTrue(wd.findElement(By.cssSelector("h1")).getText().equals(title6));
-    clickCanada();
-
-
-    wd.findElement(By.cssSelector("#box-apps-menu #app-:nth-of-type(6) > [href] .name")).click();
-    clickEU();
-
-
-    wd.findElement(By.cssSelector("#box-apps-menu #app-:nth-of-type(6) > [href] .name")).click();
-    clickUSA();
-*/
-
+        List<WebElement> namesOfZones = wd.findElements(By.xpath("//table[@id='table-zones']//td[descendant::*[contains(@name,'name')]]"));
+        for (WebElement nameOfZone : namesOfZones) {
+          zonesListNames.add(nameOfZone.getText());
+        }
+        zonesListNames.remove(zonesListNames.size() - 1);
+        Assert.assertTrue(checkOrder(zonesListNames));
+        wd.findElement(By.xpath("//span[contains(text(),'Countries')]")).click();
+      }
+    }
   }
 
   @AfterMethod
@@ -100,14 +87,6 @@ public class CountriesOrderTest_09 {
     wd.quit();
   }
 
-  public static boolean isAlertPresent(FirefoxDriver wd) {
-    try {
-      wd.switchTo().alert();
-      return true;
-    } catch (NoAlertPresentException e) {
-      return false;
-    }
-  }
 
   public boolean isElementPresent(String xPathLocator) {
     try {
@@ -136,56 +115,6 @@ public class CountriesOrderTest_09 {
       previous = current;
     }
     return true;
-  }
-
-  public List<WebElement> getZones() {
-    List<WebElement> zones = wd.findElements(By.cssSelector("td:nth-of-type(3)"));
-    return zones;
-  }
-
-
-  public List<String> getZonesInParticularCountry() {
-    List<WebElement> zonesInParticularCountry = wd.findElements(By.xpath("//table[@id='table-zones']//td[3]"));
-    List<String> zonesNames = new ArrayList<String>();
-    for (WebElement zone : zonesInParticularCountry) {
-      String zoneName = zone.getAttribute("textContent");
-      zonesNames.add(zoneName);
-    }
-    return zonesNames;
-  }
-
-
-  public List<Integer> getNumberInZones() {
-    List<WebElement> numberInZones = wd.findElements(By.cssSelector("td:nth-of-type(6)"));
-    List<Integer> numberValues = new ArrayList<Integer>();
-    for (WebElement number : numberInZones) {
-      Integer numberValue = parseInt(number.getAttribute("textContent"));
-      numberValues.add(numberValue);
-
-    }
-    return numberValues;
-  }
-
-  public void checkIfNumberValueIsMultiple(){
-    List<Integer> numberValues = getNumberInZones();
-    for (Integer number:numberValues){
-      if (number>0){
-
-      }
-    }
-  }
-
-
-  public void clickCanada() {
-    wd.findElement(By.xpath("//a[contains(text(),'Canada')]")).click();
-  }
-
-  public void clickEU() {
-    wd.findElement(By.xpath("//a[contains(text(),'European Union')]")).click();
-  }
-
-  public void clickUSA() {
-    wd.findElement(By.xpath("//a[contains(text(),'United States of America')]")).click();
   }
 
 }
