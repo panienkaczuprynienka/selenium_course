@@ -32,8 +32,8 @@
       <file leaf-file-name="StickerTest_08.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest_08.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -42,22 +42,36 @@
       <file leaf-file-name="Cart_13.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Cart_13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
+            <state relative-caret-position="226">
               <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountriesOrderTest_09.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java">
+      <file leaf-file-name="ProductAttributesTest_10.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ProductAttributesTest_10.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="795">
-              <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+            <state relative-caret-position="187">
+              <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3953#3961#0" expanded="true" />
-                <element signature="e#4660#4668#0" expanded="true" />
+                <element signature="e#4896#4897#0" expanded="true" />
+                <element signature="e#4915#4916#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountriesOrderTest_09.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="867">
+              <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3949#3957#0" expanded="true" />
+                <element signature="e#4656#4664#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -383,8 +397,9 @@
         <option value="$PROJECT_DIR$/src/test/java/Trlololo.java" />
         <option value="$PROJECT_DIR$/src/test/java/HeadersAndLinkTest_07.java" />
         <option value="$PROJECT_DIR$/src/test/java/StickerTest_08.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Cart_13.java" />
         <option value="$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Cart_13.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ProductAttributesTest_10.java" />
       </list>
     </option>
   </component>
@@ -470,7 +485,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CountriesOrderTest_09">
+  <component name="RunManager" selected="TestNG.ProductAttributesTest_10">
     <configuration name="Cart_13" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="playground-tests_test" />
@@ -552,14 +567,14 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="StickerTest_08" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductAttributesTest_10" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="playground-tests_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StickerTest_08" />
+      <option name="MAIN_CLASS_NAME" value="ProductAttributesTest_10" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -579,14 +594,14 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Trlololo" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StickerTest_08" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="playground-tests_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Trlololo" />
+      <option name="MAIN_CLASS_NAME" value="StickerTest_08" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -687,19 +702,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="TestNG.Trlololo" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.HeadersAndLinkTest_07" />
-      <item index="2" class="java.lang.String" itemvalue="TestNG.StickerTest_08" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.Cart_13" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CountriesOrderTest_09" />
+      <item index="0" class="java.lang.String" itemvalue="TestNG.HeadersAndLinkTest_07" />
+      <item index="1" class="java.lang.String" itemvalue="TestNG.StickerTest_08" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.Cart_13" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CountriesOrderTest_09" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.ProductAttributesTest_10" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CountriesOrderTest_09" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.ProductAttributesTest_10" />
         <item index="1" class="java.lang.String" itemvalue="TestNG.Cart_13" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.StickerTest_08" />
-        <item index="3" class="java.lang.String" itemvalue="TestNG.HeadersAndLinkTest_07" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.Trlololo" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CountriesOrderTest_09" />
+        <item index="3" class="java.lang.String" itemvalue="TestNG.StickerTest_08" />
+        <item index="4" class="java.lang.String" itemvalue="TestNG.HeadersAndLinkTest_07" />
       </list>
     </recent_temporary>
   </component>
@@ -717,35 +732,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 21h 55m 09s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 18h 55m 53s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 21h 56m 49s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 18h 59m 00s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 22h 03m 43s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 19h 04m 08s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 22h 07m 01s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 19h 06m 30s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.16 at 22h 10m 44s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 19h 07m 24s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.17 at 15h 25m 56s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 19h 20m 14s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.17 at 15h 35m 12s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 19h 26m 18s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.17 at 15h 37m 39s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 19h 27m 53s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.17 at 15h 40m 29s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 19h 31m 34s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="CountriesOrderTest_09 - 2018.04.17 at 15h 43m 21s.xml">
-      <configuration name="CountriesOrderTest_09" configurationId="TestNG" />
+    <history-entry file="ProductAttributesTest_10 - 2018.04.17 at 19h 58m 49s.xml">
+      <configuration name="ProductAttributesTest_10" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -754,14 +769,14 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2555205" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24921136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32649842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -772,7 +787,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31388012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30914825" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -802,7 +817,7 @@
           <option name="timeStamp" value="74" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="102" />
+      <option name="time" value="106" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -901,14 +916,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest_08.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/function/Function.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -917,30 +924,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Cart_13.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="245">
+          <caret line="709" column="0" lean-forward="false" selection-start-line="709" selection-start-column="0" selection-end-line="709" selection-end-column="0" />
+          <folding>
+            <element signature="e#27713#27726#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testng/testng/6.11/77da7afb24d57b640d9803593a6222c7de12dd4e/testng-6.11-sources.jar!/org/testng/internal/Invoker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Cart_13.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="670" column="0" lean-forward="false" selection-start-line="670" selection-start-column="0" selection-end-line="670" selection-end-column="0" />
+        <state relative-caret-position="226">
+          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CountriesOrderTest_09.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="84" column="4" lean-forward="false" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+        <state relative-caret-position="867">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3953#3961#0" expanded="true" />
-            <element signature="e#4660#4668#0" expanded="true" />
+            <element signature="e#3949#3957#0" expanded="true" />
+            <element signature="e#4656#4664#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StickerTest_08.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="45" column="29" lean-forward="true" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ProductAttributesTest_10.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="89" column="12" lean-forward="false" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4896#4897#0" expanded="true" />
+            <element signature="e#4915#4916#0" expanded="true" />
           </folding>
         </state>
       </provider>
