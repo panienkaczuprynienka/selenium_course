@@ -51,7 +51,7 @@ public class CountriesOrderTest_09 {
     wd.findElement(By.name("password")).sendKeys("admin");
     wd.findElement(By.name("login")).click();
 // 1a
-    
+
     Assert.assertTrue(isElementPresent("//div[@class='logotype']"));
 
     wd.findElement(By.cssSelector("#box-apps-menu #app-:nth-of-type(3) > [href] .name")).click();
@@ -82,29 +82,29 @@ public class CountriesOrderTest_09 {
       }
     }
 
-
-
+    
     //2
     wd.findElement(By.cssSelector("#box-apps-menu #app-:nth-of-type(6) > [href] .name")).click();
     String title2 = "Geo Zones";
     Assert.assertTrue(wd.findElement(By.cssSelector("h1")).getText().equals(title2));
 
     List<WebElement> countries = wd.findElements(By.cssSelector("[name] td:nth-of-type(3)"));
-    for (int i = 0; i < countries.size() - 1; i++) {
-      //Thread.sleep(4000);
-      countries.get(i).findElements(By.cssSelector("a[href^=http]")).get(0).click();
+    int quantity = countries.size();
+    for (int i = 0; i < quantity; i++) {
+
+      WebElement country = countries.get(i);
+      country.findElements(By.cssSelector("a[href^=http]")).get(0).click();
 
       List<WebElement> zones = wd.findElements(By.xpath("//table[@id='table-zones']//select[contains(@name,'zone_code')]/option[@selected='selected']"));
       List<String> zonesNames = new ArrayList<String>();
-            for (WebElement zone : zones) {
-                zonesNames.add(zone.getText());
-              }
-              Assert.assertTrue(checkOrder(zonesNames));
-      wd.findElement(By.cssSelector("#box-apps-menu #app-:nth-of-type(6) > [href] .name")).click();
+      for (WebElement zone : zones) {
+        zonesNames.add(zone.getText());
+      }
+      Assert.assertTrue(checkOrder(zonesNames));
+
+      wd.navigate().back();
+      countries = wd.findElements(By.cssSelector("[name] td:nth-of-type(3)"));
     }
-
-
-
 
   }
 
