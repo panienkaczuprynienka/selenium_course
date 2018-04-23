@@ -32,7 +32,7 @@ public class Cart_13 {
 
   @BeforeMethod
   public void setUp() throws Exception {
-      wd = new ChromeDriver();
+    wd = new ChromeDriver();
     wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
   }
 
@@ -66,19 +66,29 @@ public class Cart_13 {
     goToCart();
 
 
-int j =3;
+    int j = countRows();
     for (int i = 0; i < j; i++) {
-      WebElement row = wd.findElement(By.xpath("//table[@class='dataTable rounded-corners']//strong[contains(text(),'Subtotal:')]"));
+      WebElement row = wd.findElement(By.xpath("//table[@class='dataTable rounded-corners']//tr//td[contains(text(),'Duck')]"));
       wd.findElement(By.xpath("//button[@value='Remove']")).click();
-      if (i<j-1) {
+      if (i < j - 1) {
+        WebDriverWait wait = new WebDriverWait(wd, 30);
         wait.until(ExpectedConditions.stalenessOf(row));
-      } else {
-        wd.findElement(By.xpath("//div[@id='checkout-cart-wrapper']//a[contains(text(),'<< Back')]")).click();
       }
     }
+  }
 
-}
 
+  public int countRows() {
+    List<WebElement> rows = wd.findElements(By.xpath("//table[@class='dataTable rounded-corners']//tr//td[contains(text(),'Duck')]"));
+    if (rows.size() == 3) {
+      return 3;
+    } else if (rows.size() == 2) {
+      return 2;
+    } else if (rows.size() == 1) {
+      return 1;
+    }
+    return 0;
+  }
 
   private void goToCart() {
     WebElement goToCartButton = wd.findElement(By.cssSelector("[href$=checkout][class=\"link\"]"));
