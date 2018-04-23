@@ -21,27 +21,13 @@ public class LinksAndWindows_14 {
 
   WebDriver wd;
   WebDriverWait wait;
-  String browser = "chrome";
-  String runningSchemaForFF = "new";
+
 
 
   @BeforeMethod
   public void setUp() throws Exception {
-    if (browser.equals("firefox")) {
-      if (runningSchemaForFF.equals("new")) {
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability(FirefoxDriver.MARIONETTE, false);
-        wd = new FirefoxDriver(caps);
-        System.out.println(((HasCapabilities) wd).getCapabilities());
-        wait = new WebDriverWait(wd, 10);
-      } else if (runningSchemaForFF.equals("new")) {
-        wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-      }
-    } else if (browser.equals("chrome")) {
+
       wd = new ChromeDriver();
-    } else if (browser.equals("IE")) {
-      wd = new InternetExplorerDriver();
-    }
     wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
   }
 

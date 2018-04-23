@@ -17,6 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
+import java.util.function.Function;
 
 import static java.lang.Integer.parseInt;
 import static org.openqa.selenium.support.ui.ExpectedConditions.textToBePresentInElement;
@@ -26,27 +27,12 @@ import static org.openqa.selenium.support.ui.ExpectedConditions.visibilityOfElem
 public class Cart_13 {
   WebDriver wd;
   WebDriverWait wait;
-  String browser = "chrome";
-  String runningSchemaForFF = "new";
+
 
 
   @BeforeMethod
   public void setUp() throws Exception {
-    if (browser.equals("firefox")) {
-      if (runningSchemaForFF.equals("new")) {
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability(FirefoxDriver.MARIONETTE, false);
-        wd = new FirefoxDriver(caps);
-        System.out.println(((HasCapabilities) wd).getCapabilities());
-        wait = new WebDriverWait(wd, 10);
-      } else if (runningSchemaForFF.equals("new")) {
-        wd = new FirefoxDriver(new FirefoxOptions().setLegacy(true));
-      }
-    } else if (browser.equals("chrome")) {
       wd = new ChromeDriver();
-    } else if (browser.equals("IE")) {
-      wd = new InternetExplorerDriver();
-    }
     wd.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
   }
 
@@ -79,39 +65,20 @@ public class Cart_13 {
     }
     goToCart();
 
-    // List<WebElement> products = getListOfProductsInCart();
-    // removeFirstAvailableProductFromCart();
-    // wait.until(ExpectedConditions.stalenessOf(products.get(0)));
 
-
-    for (int i = 0; i < 3; i++) {
+int j =3;
+    for (int i = 0; i < j; i++) {
       WebElement row = wd.findElement(By.xpath("//table[@class='dataTable rounded-corners']//strong[contains(text(),'Subtotal:')]"));
       wd.findElement(By.xpath("//button[@value='Remove']")).click();
-      wait.until(ExpectedConditions.stalenessOf(row));
+      if (i<j-1) {
+        wait.until(ExpectedConditions.stalenessOf(row));
+      } else {
+        wd.findElement(By.xpath("//div[@id='checkout-cart-wrapper']//a[contains(text(),'<< Back')]")).click();
+      }
     }
 
-  }
+}
 
-  private void removeFirstAvailableProductFromCart() {
-    List<WebElement> removeButtons = wd.findElements(By.cssSelector("[name=\"remove_cart_item\"]"));
-    removeButtons.get(0).click();
-  }
-
-  public List<WebElement> getListOfProductsInCart() {
-    List<WebElement> productsInCart = wd.findElements(By.xpath("//td[contains(text(),'Duck')]/.."));
-    return productsInCart;
-  }
-
-
-  public List<String> getListOfProductsNamesInCart() {
-    List<WebElement> productsInCart = wd.findElements(By.xpath("//td[contains(text(),'Duck')]/..//td[@class=\"item\"]"));
-    List<String> productsInCartNames = new ArrayList<String>();
-    for (WebElement product : productsInCart) {
-      String productName = product.getText();
-      productsInCartNames.add(productName);
-    }
-    return productsInCartNames;
-  }
 
   private void goToCart() {
     WebElement goToCartButton = wd.findElement(By.cssSelector("[href$=checkout][class=\"link\"]"));

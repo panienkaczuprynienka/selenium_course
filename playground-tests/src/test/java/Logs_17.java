@@ -1,3 +1,4 @@
+import net.lightbody.bmp.client.ClientUtil;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -16,6 +17,7 @@ import org.testng.annotations.Test;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
+
 import org.openqa.selenium.logging.LogEntry;
 import org.openqa.selenium.logging.LogEntries;
 import net.lightbody.bmp.BrowserMobProxy;
@@ -27,6 +29,7 @@ public class Logs_17 {
   public static ThreadLocal<EventFiringWebDriver> tlDriver = new ThreadLocal();
   public WebDriverWait wait;
   public LogEntries log;
+  public BrowserMobProxy proxy;
 
   public static class MyListener extends AbstractWebDriverEventListener {
     @Override
@@ -54,16 +57,11 @@ public class Logs_17 {
       return;
     }
 
-    // start the proxy
-    BrowserMobProxy proxy = new BrowserMobProxyServer();
+    proxy = new BrowserMobProxyServer();
     proxy.start(0);
-
-    // get the Selenium proxy object
     Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
-
-    // configure it as a desired capability
     DesiredCapabilities capabilities = new DesiredCapabilities();
-   capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
+    capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
 
     DesiredCapabilities cap = DesiredCapabilities.chrome();
     LoggingPreferences logPrefs = new LoggingPreferences();
